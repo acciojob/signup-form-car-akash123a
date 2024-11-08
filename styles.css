@@ -1,1 +1,23 @@
- 
+*{
+	border:100px 100px 150px px	;
+	margin: 10px 10px 15px px 10pc	;
+	/* margin: 10px; */
+	background-color : lightgreen;
+	
+}
+#name {
+	position:10px;
+	 margin:5px;
+ }
+#email {
+	position:10px;
+	 margin:5px;
+ }
+#male {
+	position:10px;
+	 margin:5px;
+ }
+#cars,#age ,#dob,#tel,#password,#tos,#button{
+	position:10px;
+	 margin:5px;
+ } 
