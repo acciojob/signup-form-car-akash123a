@@ -1,48 +1,40 @@
-<!DOCTYPE html>
+<form action="/submit_form" method="post">
+	<label for="name">Name:</label>
+	<input id="name" type="text" required placeholder="Name"><br>
 
-<html>
+	<label for="email">Email:</label>
+	<input id="email" type="email" required placeholder="Email"><br>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<form action="/Submit form" method="post" >
-		
-	Name : <input id="name" type= "text" required placeholder = "Name"><br>
-	Email : <input id="email" type= "text" required placeholder = "Name"><br>
-	 
 	<label>Gender:</label>
-<input type="radio" id="male" name="gender" value="male" required>
-<label for="male">Male</label>
+	<input type="radio" id="male" name="gender" value="male" required>
+	<label for="male">Male</label>
 
-<input type="radio" id="female" name="gender" value="female" required>
-<label for="female">Female</label>
-		<br>
-	Car Brands<select id="cars" >	
-	
-		
+	<input type="radio" id="female" name="gender" value="female" required>
+	<label for="female">Female</label><br>
+
+	<label for="cars">Car Brands:</label>
+	<select id="cars">
 		<option>Hundai</option>
 		<option>Maruti</option>
 		<option>Suzuki</option>
-		<option>Lamborgini</option>
+		<option>Lamborghini</option>
 		<option>Jaguar</option>
 	</select><br>
-	
-	Age : <input id="age" required type="number" placeholder="Enter your age"><br>
-	DOB : <input id="dob" type="date" required placeholder="Enter you Date of Birth"><br>
-	Phone Number : <input id="tel" type="tel" placeholder="xxx-xxx-xxxx" ><br>
-	Password : <input  id="password" type="password" required placeholder="Enter your Password"><br>
-	<input  id="tos" type="checkbox" required >I agree to the TOS <br>
-	<button id="button">Submit</button>
 
+	<label for="age">Age:</label>
+	<input id="age" required type="number" placeholder="Enter your age"><br>
 
+	<label for="dob">DOB:</label>
+	<input id="dob" type="date" required><br>
 
-	</form>
-	
-    <script type="text/javascript" src="./script.js">
-</script>
+	<label for="tel">Phone Number:</label>
+	<input id="tel" type="tel" placeholder="xxx-xxx-xxxx"><br>
 
-</body>
+	<label for="password">Password:</label>
+	<input id="password" type="password" required placeholder="Enter your Password"><br>
 
-</html>
+	<input id="tos" type="checkbox" required>
+	<label for="tos">I agree to the TOS</label><br>
+
+	<button type="submit">Submit</button>
+</form>
