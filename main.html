@@ -7,7 +7,39 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<form action="/Submit form" method="post" >
+		
+	Name : <input id="name" type= "text" required placeholder = "Name"><br>
+	Email : <input id="email" type= "text" required placeholder = "Name"><br>
+	 
+	<label>Gender:</label>
+<input type="radio" id="male" name="gender" value="male" required>
+<label for="male">Male</label>
+
+<input type="radio" id="female" name="gender" value="female" required>
+<label for="female">Female</label>
+		<br>
+	Car Brands<select id="cars" >	
+	
+		
+		<option>Hundai</option>
+		<option>Maruti</option>
+		<option>Suzuki</option>
+		<option>Lamborgini</option>
+		<option>Jaguar</option>
+	</select><br>
+	
+	Age : <input id="age" required type="number" placeholder="Enter your age"><br>
+	DOB : <input id="dob" type="date" required placeholder="Enter you Date of Birth"><br>
+	Phone Number : <input id="tel" type="tel" placeholder="xxx-xxx-xxxx" ><br>
+	Password : <input  id="password" type="password" required placeholder="Enter your Password"><br>
+	<input  id="tos" type="checkbox" required >I agree to the TOS <br>
+	<button>Submit</button>
+
+
+
+	</form>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
